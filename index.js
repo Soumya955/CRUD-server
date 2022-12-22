@@ -81,6 +81,9 @@ app.get("/purchage",(req,res)=>{
         }
     });
 })
+app.get("/",(req,res)=>{
+   res.send({"msg":"hello soumya"})
+})
 
 
 
